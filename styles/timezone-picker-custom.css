@@ -1,12 +1,18 @@
+body {background-color: #bbb;}
 .timezone-map polygon[data-selected='true'] {
     fill: #ca3e47;
 }
 
 .timezone-map polygon {
-    fill: #bbb;
+    fill: #313131;
 }
 
 .timezone-map polygon:hover {
     fill: #5a5a5a;
     cursor: pointer;
 }
+    
+.credits {
+    margin: auto;
+    width: 20%;
+  }
