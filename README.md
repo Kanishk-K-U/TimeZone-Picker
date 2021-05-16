@@ -4,8 +4,7 @@
 
 Visit the following link to find your time zone:
 
-https://Kanishk-K-U.github.io/Time-Zone-Picker/
-
+https://kanishk-k-u.github.io/TimeZone-Picker/
 ## References
 
 -   [timezone-picker](https://github.com/kevalbhatt/timezone-picker) by [Keval Bhatt](https://github.com/kevalbhatt) - A JavaScript plugin to select time zones using a world map.
