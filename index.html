@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="./styles/timezone-picker-custom.css" />
     </head>
     <body>
+        
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -55,14 +56,19 @@
                             </button>
                         </div>
                     </div>
+                    <div class="map"id="map"></div>
                     <label for="hovered-time-zone"
                         ><b>Hovered Time Zone</b>: <span id="hovered-time-zone">None</span></label
                     >
                 </div>
             </div>
         </div>
-        <div id="map"></div>
+        
+        <div class="map"id="map"></div>
+        <div class="credits">
 
+            Made with <span style="color: #e25555;">&#9829;</span> by <a href="https://kanishk-k-u.github.io/Kanishk.io/">Kanishk</a>
+        </div>
         <script src="./scripts/polyfills.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
